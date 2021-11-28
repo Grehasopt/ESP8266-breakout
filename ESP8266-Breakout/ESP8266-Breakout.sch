@@ -181,7 +181,7 @@ F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3288 6550 50  
 F 3 "~" H 3250 6700 50  0001 C CNN
 F 4 "10V" H 3250 6700 50  0001 C CNN "Maximum Value"
 F 5 "1206" H 3250 6700 50  0001 C CNN "Package Reference"
-F 6 "C96123" H 3250 6700 50  0001 C CNN "LCSC"
+F 6 "C13585" H 3250 6700 50  0001 C CNN "LCSC"
 	1    3250 6700
 	1    0    0    -1  
 $EndComp
@@ -197,7 +197,7 @@ F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2938 6550 50  
 F 3 "~" H 2900 6700 50  0001 C CNN
 F 4 "10V" H 2900 6700 50  0001 C CNN "Maximum Value"
 F 5 "1206" H 2900 6700 50  0001 C CNN "Package Reference"
-F 6 "C96123" H 2900 6700 50  0001 C CNN "LCSC"
+F 6 "C24497" H 2900 6700 50  0001 C CNN "LCSC"
 	1    2900 6700
 	1    0    0    -1  
 $EndComp
@@ -213,7 +213,7 @@ F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2038 6550 50  
 F 3 "~" H 2000 6700 50  0001 C CNN
 F 4 "10V" H 2000 6700 50  0001 C CNN "Maximum Value"
 F 5 "1206" H 2000 6700 50  0001 C CNN "Package Reference"
-F 6 "C96123" H 2000 6700 50  0001 C CNN "LCSC"
+F 6 "C24497" H 2000 6700 50  0001 C CNN "LCSC"
 	1    2000 6700
 	1    0    0    -1  
 $EndComp
@@ -8768,7 +8768,7 @@ F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1738 6550 50  
 F 3 "~" H 1700 6700 50  0001 C CNN
 F 4 "10V" H 1700 6700 50  0001 C CNN "Maximum Value"
 F 5 "1206" H 1700 6700 50  0001 C CNN "Package Reference"
-F 6 "C96123" H 1700 6700 50  0001 C CNN "LCSC"
+F 6 "C13585" H 1700 6700 50  0001 C CNN "LCSC"
 	1    1700 6700
 	1    0    0    -1  
 $EndComp

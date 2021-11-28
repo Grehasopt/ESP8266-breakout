@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/cs-du/Desktop/ESP8266-breakout/ESP8266-Breakout/ESP8266-Breakout.sch</source>
+    <date>Κυρ 28 Νοε 2021 12:50:32 πμ EET</date>
+    <tool>Eeschema 5.1.9-73d0e3b20d~88~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ESP8266-Breakout.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/ESP8266/" tstamps="/61679922/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ESP8266.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J101">
+      <value>Conn_01x09_Female</value>
+      <footprint>Custom:PinHeader_1x09_P2.54mm_Vertical_without_silkscrean</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x09_Female" description="Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616AE412</tstamp>
+    </comp>
+    <comp ref="J102">
+      <value>Conn_01x09_Female</value>
+      <footprint>Custom:PinHeader_1x09_P2.54mm_Vertical_without_silkscrean</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x09_Female" description="Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616B132B</tstamp>
+    </comp>
+    <comp ref="U101">
+      <value>AMS1117-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="AMS1117-3.3" description="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616C86FC</tstamp>
+    </comp>
+    <comp ref="C104">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C13585</field>
+        <field name="Maximum Value">10V</field>
+        <field name="Package Reference">1206</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616CEEFA</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C24497</field>
+        <field name="Maximum Value">10V</field>
+        <field name="Package Reference">1206</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616CFA6C</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C24497</field>
+        <field name="Maximum Value">10V</field>
+        <field name="Package Reference">1206</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616D5D66</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C13585</field>
+        <field name="Maximum Value">10V</field>
+        <field name="Package Reference">1206</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616D63BF</tstamp>
+    </comp>
+    <comp ref="TP101">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61654D0C</tstamp>
+    </comp>
+    <comp ref="TP102">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6165552A</tstamp>
+    </comp>
+    <comp ref="R505">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="Maximum Value">0.1W</field>
+        <field name="Package Reference">0603</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ESP8266/" tstamps="/61679922/"/>
+      <tstamp>6070E9B1</tstamp>
+    </comp>
+    <comp ref="R501">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="Maximum Value">0.1W</field>
+        <field name="Package Reference">0603</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ESP8266/" tstamps="/61679922/"/>
+      <tstamp>6070E9B7</tstamp>
+    </comp>
+    <comp ref="R506">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="Maximum Value">0.1W</field>
+        <field name="Package Reference">0603</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ESP8266/" tstamps="/61679922/"/>
+      <tstamp>6070E9EE</tstamp>
+    </comp>
+    <comp ref="R502">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="Maximum Value">0.1W</field>
+        <field name="Package Reference">0603</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ESP8266/" tstamps="/61679922/"/>
+      <tstamp>6070EA33</tstamp>
+    </comp>
+    <comp ref="U501">
+      <value>ESP-12F</value>
+      <footprint>RF_Module:ESP-12E</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2102191804_Ai-Thinker-ESP-12F-ESP8266MOD_C82891.pdf</datasheet>
+      <fields>
+        <field name="Description">WIFI Module WIFI Modules RoHS</field>
+        <field name="LCSC">C82891</field>
+        <field name="Maximum Value">3.3V</field>
+        <field name="Package Reference">WIFI Module</field>
+      </fields>
+      <libsource lib="RF_Module" part="ESP-12F" description="802.11 b/g/n Wi-Fi Module"/>
+      <sheetpath names="/ESP8266/" tstamps="/61679922/"/>
+      <tstamp>6070E996</tstamp>
+    </comp>
+    <comp ref="J501">
+      <value>FTDI</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Package Reference">2.54mm 1x6</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/ESP8266/" tstamps="/61679922/"/>
+      <tstamp>60822481</tstamp>
+    </comp>
+    <comp ref="R507">
+      <value>15</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17480</field>
+        <field name="Maximum Value">0.1W</field>
+        <field name="Package Reference">0805</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ESP8266/" tstamps="/61679922/"/>
+      <tstamp>608D43C6</tstamp>
+    </comp>
+    <comp ref="R504">
+      <value>15</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17480</field>
+        <field name="Maximum Value">0.1W</field>
+        <field name="Package Reference">0805</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ESP8266/" tstamps="/61679922/"/>
+      <tstamp>608D4A64</tstamp>
+    </comp>
+    <comp ref="C502">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C96123</field>
+        <field name="Maximum Value">10V</field>
+        <field name="Package Reference">1206</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/ESP8266/" tstamps="/61679922/"/>
+      <tstamp>609CE894</tstamp>
+    </comp>
+    <comp ref="C501">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="Maximum Value">50V</field>
+        <field name="Package Reference">0603</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/ESP8266/" tstamps="/61679922/"/>
+      <tstamp>609CDF2B</tstamp>
+    </comp>
+    <comp ref="JP501">
+      <value>Power</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Package Reference">-</field>
+      </fields>
+      <libsource lib="Device" part="Jumper_NC_Small" description="Jumper, normally closed, small symbol"/>
+      <sheetpath names="/ESP8266/" tstamps="/61679922/"/>
+      <tstamp>60C67B52</tstamp>
+    </comp>
+    <comp ref="SW501">
+      <value>Flash</value>
+      <footprint>Button_Switch_SMD:SW_SPST_CK_RS282G05A3</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C398053</field>
+        <field name="LCSC (alt)">C354943</field>
+        <field name="Package Reference">6.1x3.7x2.5mm</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/ESP8266/" tstamps="/61679922/"/>
+      <tstamp>6065C688</tstamp>
+    </comp>
+    <comp ref="D501">
+      <value>TX</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">Blue</field>
+        <field name="LCSC">C72041</field>
+        <field name="Maximum Value">15mA</field>
+        <field name="Package Reference">0603</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/ESP8266/" tstamps="/61679922/"/>
+      <tstamp>608DE81B</tstamp>
+    </comp>
+    <comp ref="D502">
+      <value>RX</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">Blue</field>
+        <field name="LCSC">C72041</field>
+        <field name="Maximum Value">15mA</field>
+        <field name="Package Reference">0603</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/ESP8266/" tstamps="/61679922/"/>
+      <tstamp>608DFB8B</tstamp>
+    </comp>
+    <comp ref="SW502">
+      <value>RST</value>
+      <footprint>Button_Switch_SMD:SW_SPST_CK_RS282G05A3</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C398053</field>
+        <field name="LCSC (alt)">C354943</field>
+        <field name="Package Reference">6.1x3.7x2.5mm</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/ESP8266/" tstamps="/61679922/"/>
+      <tstamp>60665ACE</tstamp>
+    </comp>
+    <comp ref="R503">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="Maximum Value">0.1W</field>
+        <field name="Package Reference">0603</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/ESP8266/" tstamps="/61679922/"/>
+      <tstamp>6070EA17</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x06_Female">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x09_Female">
+      <description>Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x09_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Jumper_NC_Small">
+      <description>Jumper, normally closed, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NC_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_Module" part="ESP-12E">
+      <aliases>
+        <alias>ESP-12F</alias>
+      </aliases>
+      <description>802.11 b/g/n Wi-Fi Module</description>
+      <docs>http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf</docs>
+      <footprints>
+        <fp>ESP?12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP-12E</field>
+        <field name="Footprint">RF_Module:ESP-12E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~RST" type="input"/>
+        <pin num="2" name="ADC" type="input"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="GPIO16" type="BiDi"/>
+        <pin num="5" name="GPIO14" type="BiDi"/>
+        <pin num="6" name="GPIO12" type="BiDi"/>
+        <pin num="7" name="GPIO13" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="CS0" type="input"/>
+        <pin num="10" name="MISO" type="BiDi"/>
+        <pin num="11" name="GPIO9" type="BiDi"/>
+        <pin num="12" name="GPIO10" type="BiDi"/>
+        <pin num="13" name="MOSI" type="BiDi"/>
+        <pin num="14" name="SCLK" type="BiDi"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="GPIO15" type="BiDi"/>
+        <pin num="17" name="GPIO2" type="BiDi"/>
+        <pin num="18" name="GPIO0" type="BiDi"/>
+        <pin num="19" name="GPIO4" type="BiDi"/>
+        <pin num="20" name="GPIO5" type="BiDi"/>
+        <pin num="21" name="GPIO3/RXD" type="BiDi"/>
+        <pin num="22" name="GPIO1/TXD" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AP1117-15">
+      <aliases>
+        <alias>AP1117-18</alias>
+        <alias>AP1117-25</alias>
+        <alias>AP1117-33</alias>
+        <alias>AP1117-50</alias>
+        <alias>LD1117S33TR_SOT223</alias>
+        <alias>LD1117S12TR_SOT223</alias>
+        <alias>LD1117S18TR_SOT223</alias>
+        <alias>LD1117S25TR_SOT223</alias>
+        <alias>LD1117S50TR_SOT223</alias>
+        <alias>NCP1117-12_SOT223</alias>
+        <alias>NCP1117-1.5_SOT223</alias>
+        <alias>NCP1117-1.8_SOT223</alias>
+        <alias>NCP1117-2.0_SOT223</alias>
+        <alias>NCP1117-2.5_SOT223</alias>
+        <alias>NCP1117-2.85_SOT223</alias>
+        <alias>NCP1117-3.3_SOT223</alias>
+        <alias>NCP1117-5.0_SOT223</alias>
+        <alias>AMS1117-1.5</alias>
+        <alias>AMS1117-1.8</alias>
+        <alias>AMS1117-2.5</alias>
+        <alias>AMS1117-2.85</alias>
+        <alias>AMS1117-3.3</alias>
+        <alias>AMS1117-5.0</alias>
+      </aliases>
+      <description>1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223</description>
+      <docs>http://www.diodes.com/datasheets/AP1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP1117-15</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="RF_Module">
+      <uri>/usr/share/kicad/library/RF_Module.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/GPIO16">
+      <node ref="U501" pin="4"/>
+      <node ref="J101" pin="4"/>
+    </net>
+    <net code="2" name="/GPIO1">
+      <node ref="U501" pin="22"/>
+      <node ref="R504" pin="2"/>
+      <node ref="J501" pin="2"/>
+      <node ref="J102" pin="1"/>
+    </net>
+    <net code="3" name="/GPIO0">
+      <node ref="J102" pin="5"/>
+      <node ref="R501" pin="1"/>
+      <node ref="SW501" pin="2"/>
+      <node ref="U501" pin="18"/>
+    </net>
+    <net code="4" name="/GPIO10">
+      <node ref="J102" pin="9"/>
+      <node ref="U501" pin="12"/>
+    </net>
+    <net code="5" name="/ADC">
+      <node ref="J101" pin="2"/>
+      <node ref="U501" pin="2"/>
+    </net>
+    <net code="6" name="/RST">
+      <node ref="U501" pin="1"/>
+      <node ref="R502" pin="1"/>
+      <node ref="SW502" pin="2"/>
+      <node ref="J101" pin="1"/>
+    </net>
+    <net code="7" name="/EN">
+      <node ref="J101" pin="3"/>
+      <node ref="U501" pin="3"/>
+      <node ref="R503" pin="2"/>
+    </net>
+    <net code="8" name="/GPIO3">
+      <node ref="U501" pin="21"/>
+      <node ref="R507" pin="2"/>
+      <node ref="J102" pin="2"/>
+      <node ref="J501" pin="3"/>
+    </net>
+    <net code="9" name="/GPIO14">
+      <node ref="J101" pin="5"/>
+      <node ref="U501" pin="5"/>
+    </net>
+    <net code="10" name="/GPIO12">
+      <node ref="U501" pin="6"/>
+      <node ref="J101" pin="6"/>
+    </net>
+    <net code="11" name="/GPIO13">
+      <node ref="U501" pin="7"/>
+      <node ref="J101" pin="7"/>
+    </net>
+    <net code="12" name="/GPIO5">
+      <node ref="U501" pin="20"/>
+      <node ref="J102" pin="3"/>
+    </net>
+    <net code="13" name="/GPIO4">
+      <node ref="J102" pin="4"/>
+      <node ref="U501" pin="19"/>
+    </net>
+    <net code="14" name="/GPIO2">
+      <node ref="U501" pin="17"/>
+      <node ref="R505" pin="2"/>
+      <node ref="J102" pin="6"/>
+    </net>
+    <net code="15" name="+3V3">
+      <node ref="R502" pin="2"/>
+      <node ref="R505" pin="1"/>
+      <node ref="R503" pin="1"/>
+      <node ref="U501" pin="8"/>
+      <node ref="R501" pin="2"/>
+      <node ref="C502" pin="1"/>
+      <node ref="J101" pin="8"/>
+      <node ref="U101" pin="2"/>
+      <node ref="C104" pin="1"/>
+      <node ref="C103" pin="1"/>
+      <node ref="C501" pin="1"/>
+      <node ref="JP501" pin="2"/>
+    </net>
+    <net code="16" name="/GPIO15">
+      <node ref="R506" pin="2"/>
+      <node ref="J102" pin="7"/>
+      <node ref="U501" pin="16"/>
+    </net>
+    <net code="17" name="GND">
+      <node ref="C103" pin="2"/>
+      <node ref="C102" pin="2"/>
+      <node ref="U501" pin="15"/>
+      <node ref="C104" pin="2"/>
+      <node ref="J501" pin="6"/>
+      <node ref="C101" pin="2"/>
+      <node ref="TP102" pin="1"/>
+      <node ref="J102" pin="8"/>
+      <node ref="D501" pin="1"/>
+      <node ref="C502" pin="2"/>
+      <node ref="SW502" pin="1"/>
+      <node ref="D502" pin="1"/>
+      <node ref="C501" pin="2"/>
+      <node ref="R506" pin="1"/>
+      <node ref="SW501" pin="1"/>
+      <node ref="U101" pin="1"/>
+    </net>
+    <net code="18" name="+5V">
+      <node ref="TP101" pin="1"/>
+      <node ref="C101" pin="1"/>
+      <node ref="J101" pin="9"/>
+      <node ref="C102" pin="1"/>
+      <node ref="U101" pin="3"/>
+    </net>
+    <net code="19" name="Net-(J501-Pad4)">
+      <node ref="JP501" pin="1"/>
+      <node ref="J501" pin="4"/>
+    </net>
+    <net code="20" name="Net-(D502-Pad2)">
+      <node ref="R507" pin="1"/>
+      <node ref="D502" pin="2"/>
+    </net>
+    <net code="21" name="Net-(J501-Pad5)">
+      <node ref="J501" pin="5"/>
+    </net>
+    <net code="22" name="Net-(D501-Pad2)">
+      <node ref="R504" pin="1"/>
+      <node ref="D501" pin="2"/>
+    </net>
+    <net code="23" name="Net-(U501-Pad13)">
+      <node ref="U501" pin="13"/>
+    </net>
+    <net code="24" name="Net-(U501-Pad14)">
+      <node ref="U501" pin="14"/>
+    </net>
+    <net code="25" name="Net-(U501-Pad11)">
+      <node ref="U501" pin="11"/>
+    </net>
+    <net code="26" name="Net-(U501-Pad10)">
+      <node ref="U501" pin="10"/>
+    </net>
+    <net code="27" name="Net-(U501-Pad9)">
+      <node ref="U501" pin="9"/>
+    </net>
+    <net code="29" name="Net-(J501-Pad1)">
+      <node ref="J501" pin="1"/>
+    </net>
+  </nets>
+</export>
